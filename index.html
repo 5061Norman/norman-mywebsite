@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Norman Areh">
+        <meta name="discribtion" content="This page contains all the things i am learning how to 
+        create as I learn HTML.">
+        <title>My Portfolio</title>
+        <link rel="icon" href="html5.png" type="image/x-icon">
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+
+    <body>
+        <header> 
+        <h1>Norman Areh Web Designer</h1>
+       
+        <nav aria-label="primary navigation">
+            <ul>
+                <li>
+                    <a href="#html">My space</a>
+                </li>
+                <li>
+                    <a href="#vacation">Skills Obtain</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+            </ul> 
+        </nav>
+    </header>
+
+        <hr>
+        <main>
+        <article id="html">
+        <h2>Qualifications</h2>
+        <p>Web Designer.</p>
+        <p>Png contemporary Designer.</p>
+        <section>
+            <h3>Outdoor</h3>
+        <img src="img/IMG_0171.JPG" alt="HTML5 logo" title="I am learning HTML5" width="300" height="300">
+        <figure>
+        
+            <figcaption>Chill Out at Momote Airport</figcaption>
+            <p>
+                <code>&lt;h1&gt;Hello World!&lt;/&h1gt;</code>
+            </p>
+        </figure>
+    </section>
+    <section>
+        <h3>My services</h3>
+        <p>let me tell you how:</p>
+        <ol>
+            <li>...provide free web development classes.</li>
+            <li>...help biuld and publish web site.</li>
+            <li>...I use resources from <abbr title="Mozilla Developer Network">
+                <a href="https://developer.mozilla.org/">MDN</a>
+            </abbr>.</li>
+        </ol>
+        <aside>
+            <details>
+                <summary>Geuss the <mark>number of hours</mark> I code per day</summary>
+                <p>I start at <time datetime="08:00">8 am</time> and I write code for <time datetime="PT3H">3 hours</time> every morning</p>
+            </details>
+        </aside>
+        <br>
+        <table>
+            <caption>My Daily Schedule</caption>
+            <thead>
+            <tr>
+                <th>&nbsp;</th>
+                 <th scope="col">Time</th>
+                 <th scope="col">Activity</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td>
+                    <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+                </td>
+                <td>Write code</td>
+            </tr>
+             <tr>
+                <th scope="row">Break</th>
+                <td>
+                    <time datetime="11:00">11am</time>-<time datetime="12:00">12pm</time>
+                </td>
+                <td>Eat Lunch</td>
+            </tr>
+             <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                    <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+                </td>
+                <td>Study for other courses</td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <th rowspan="2">All Other Times</th>
+                <td>Free Time</td>
+            </tr>
+             <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">And that's what I do every day, 5 days a week.Just eat, sleep, code ..and recharge!</td>
+            </tr>
+        </tfoot>
+        </table>
+    </section>
+    </article>
+
+        <hr>
+
+    <article id="vacation">      
+        <h2>I am planning to expand my Web business</h2>
+        <p>I'v been working hard and <em>want to expand my business</em>. </p>
+        <p>I live in <abbr title="Papua New Guniea">PNG</abbr> so I want to expand my business abroad. </p>
+
+        <section>
+        <h3>Interest and Hobbies</h3>
+        <ul>
+    <li>
+        <p>Playing soccer.</p>
+        <p>Cooking.</p>
+        <p>Fishing.</p>
+        <p>Reading Historical Books.</p>
+
+    <figure>
+        <img src="img/20230320_144223.jpg" alt="At KBC" title="I want to visit a caribbean Beach." width="400" height="225" loading="lazy">
+        <figcaption>
+            Favorite hobby
+        </figcaption>
+</figure>
+</li>
+    <li><p>I've love reading Historical books the most:</p>
+        <address>
+            Reading of historcal books are  my favorite<br>
+            most of the time i like to read about the explores voyages<br>
+
+        </address>
+        <figure>
+        <img src="img/R.png" alt="Cancun" title="It's 5 o'Clock Somewhere!" width="300" height="300" Loading="lazy">
+     <figcaption>
+        Historical Book
+    </figcaption>
+</figure>
+    </li>
+ </ul>
+</section>
+        <!-- TODO: Add more place -->
+        <section>
+        <h3>Places I Want to see</h3>
+        <dl>
+            <dt>North Pole</dt>
+            <dd>I hear this is <strong>cold</strong>!</dd>
+
+            <dt>South Pole</dt>
+            <dd>This is also cold.</dd>
+            
+            <dt>Mountain tops</dt>
+            <dd>These are also cold.</dd>
+        </dl>
+    </section>
+ </article>
+
+    <hr>
+
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd really  like to hear from you!</p>
+
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>personal Info</legend>
+         <P>
+         <label for="firstName">First Name:</label>
+          <input type="text" name="firstName" id="firstName" placeholder="jane" autocomplete="on" required autofocus>
+        </P>
+        <p>
+         <label for="LastName">Last Name:</label>
+          <input type="text" name="LastName" id="LastName" placeholder="Doe" autocomplete="on" required>
+        <p>
+         <label for="password">password:</label>
+          <input type="text" name="password" id="password" placeholder="Your secret" required>
+        </P>
+        <p>
+         <label for="phone">Phone:</label>
+          <input type="tel" name="phone" id="phone" placeholder="5555555555" 
+          pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+        </P>
+        <p>
+         <label for="decade">Favorite Decade:</label>
+          <input type="number" name="decade" id="decade" min="1950" max="2020" step="10" value="1980">
+        </P>
+        <p>
+            <label for="choices">Your Choices:</label>
+            <select name="choices" id="choices" multiple size="5">
+                <optgroup label="Choices">
+                <option value="web design tutorials">Web design tutorials</option>
+                <option value="png contemporary design tutorials">PNG Contemporary Desing tutorials</option>
+            </optgroup>
+            <optgroup label="Optional Choices">
+                <option value="web publishing" selected>Web publishing</option>
+                <option value="web develoment">Web development</option>
+                <option value="cyber security">Cyber Security</option>
+                <option value="software development">Software development</option>
+            </optgroup>
+                <option value="others">Others</option>
+            </select>
+        </p>
+      <!--     <p>
+            <label for="coffee">Favorite Coffee:</label>
+            <select name="coffee" id="coffee" multiple size="5">
+                <optgroup label="Coffees">
+                <option value="regular coffee">Regular Coffee</option>
+                <option value="ice coffee">Ice Coffee</option>
+            </optgroup>
+            <optgroup label="Espreso Drinks">
+                <option value="latte" selected>Latte</option>
+                <option value="cappuccino">Cappuccino</option>
+                <option value="cortado">Cortado</option>
+                <option value="americano">Americano</option>
+            </optgroup>
+                <option value="others">Others</option>
+            </select>
+        </p> -->
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>How do you want us to deliver?</legend>
+        <p>
+            <input type="radio" name="deliver" id="online" value="online">
+            <label for="online">online</label>
+        </p>
+        <p>
+            <input type="radio" name="deliver" id="offline" value="offline">
+            <label for="offline">Offline</label>
+        </p>
+        <p>
+            <input type="radio" name="deliver" id="others" value="others">
+            <label for="others">Others</label>
+        </p>
+    </fieldset>
+       </form>
+    </article>
+</main>
+<hr>
+<footer>
+    <p>
+        &lt;&lt;&lt; &copy; <a href="about.html">Norman Areh</a> &gt;&gt;&gt;
+        </p>
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+    </body>
+</html> 
